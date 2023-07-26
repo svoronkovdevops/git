@@ -46,6 +46,8 @@
 
 [Git move](#git-move)
 
+[GitHub token]()
+
 ## Git help
 
 `git help command` show info 
@@ -336,5 +338,18 @@ It's a wonderful day!
 ## Git move
 
 `git mv <filename> <new_filename>` rename as in linux system
+
+[Content](#content)
+
+
+
+## GitHub token
+
+To get your Personal Access Token simply go to your Settings → Developer settings → Personal access tokens → Generate new token (https://github.com/settings/tokens)
+Check the following permissions needed to read and list repos(basic: repo, read:packages, user ) - save token
+
+Run pyCharm → settings → tape ”git” → gitHub → ‘+’→ log in with token and paste your token
+
+
 
 [Content](#content)
